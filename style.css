@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo para el icono del menu */
+.icono-menu{
+    /* margin:40px 50px; */
+    position:relative;
+    z-index: 10;
+}
+
+header i {
+    vertical-align: top; 
+    
+    /* cursor:pointer */
+}
+
+
+/* estilo para el contenedor del menu */
+.contenido-menu {
+    background-color: rgb(42, 42, 42);
+    box-shadow: 2px 0px 5px 2 rgb(66, 66,66);
+    width: 35vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/* estilo para agregar en javascript */
+.activo{
+    transform: translate(-600px);
+    width: 50vw;
+}
+.opacity{
+    background-color: rgba(0,0,0,0.5);
+    transition: all .5s ease;
+ 
+}
+
+/*estilo para el listado de menu  */
+nav{
+    width: 50vw;
+}
+.contenido-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+    width: 50vw;
+}
+
+.contenido-menu ul li a{
+    color: white;
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 50vw;
+}
+.contenido-menu ul li{
+    width: 50vw;
+}
+.contenido-menu ul li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/* ------------------- */
+/* HOME */
