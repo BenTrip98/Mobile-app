@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display: block;
+    height: 10vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header_h1_bloque{
+    width: 45vw;
+    height: 10vh;
+    background-color: red;
+}
+
+header h1{
+    font-size: medium;
+}
 
 /* estilo para el icono del menu */
 .icono-menu{
@@ -45,6 +60,7 @@ header i {
 nav{
     width: 50vw;
 }
+
 .contenido-menu ul{
     padding: 100px 0px 20px 0px;
     list-style: none;
@@ -59,9 +75,11 @@ nav{
     padding: 10px 20px;
     width: 50vw;
 }
+
 .contenido-menu ul li{
     width: 50vw;
 }
+
 .contenido-menu ul li a:hover{
     background-color: rgb(0, 0, 0);
 }
