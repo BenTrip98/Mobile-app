@@ -6,7 +6,7 @@
 header{
     display: flex;
     height: 10vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,.3);
 }
 
 .header_h1_bloque{
@@ -15,22 +15,33 @@ header{
     background-color: red;
 }
 
+
 header h1{
     font-size: medium;
     
 }
+
+.header_botones_bloque{
+    display: flex;
+    width: 55vw;
+    justify-content: flex-end;
+}
+
 .div_menuDeUsuario{
     height: 10vh;
-    width: 12vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;  
 }
 #botonDeUsuario{
     height: 45px;
     width: 12vw;
     position: relative;
     z-index: 10;
+
+    
 }
 
 /* estilo para el icono del menu */
@@ -39,10 +50,12 @@ header h1{
     /* position:relative; */
     /* z-index: 10; */
     height: 10vh;
-    width: 12vw;
+    width: 20vw;
     display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items:center;
+   /* padding-left: 1rem; */
 }
 
 #botonDeMenu{
@@ -52,6 +65,7 @@ header h1{
     z-index: 10;
     color: aliceblue;
     background-color: rgba(0,0,0,1);
+
 }
 i{
     position: relative;
