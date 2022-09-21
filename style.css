@@ -85,10 +85,36 @@ header #icono-usuario{
     top: 0;
     left: end;
     transition: all .5s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .foto-usuario-default{
     width: 5rem;
+    align-self: center;
+    padding-top: 3rem;
+}
+
+.contenido-menu #nombreUsuario{
+    color: rgb(256, 256, 256);
+    font-size: 17px;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.caja-sesion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contenido-menu a{
+    color: rgb(256, 256, 256);
+    text-align: center;
+}
+.contenido-menu p{
+    color: rgb(256, 256, 256);
+    text-align: center;
 }
 
 /* estilo para agregar en javascript */
