@@ -39,7 +39,7 @@ header h1{
     height: 45px;
     width: 12vw;
     position: relative;
-    z-index: 10;    
+    z-index: 5;    
 }
 
 /* estilo para el icono del menu */
@@ -78,17 +78,18 @@ header #icono-menu{
 .contenido-menu {
     background-color: rgb(42, 42, 42);
     box-shadow: 2px 0px 5px 2 rgb(66, 66,66);
-    width: 35vw;
+    width: 40vw;
     height: 100vh;
     position: absolute;
+    z-index: 7;
     top: 0;
-    left: 0;
+    left: end;
     transition: all .5s ease;
 }
 
 /* estilo para agregar en javascript */
 .activo{
-    transform: translate(-600px);
+    transform: translate(600px);
     width: 50vw; 
 }
 .opacity{
@@ -99,7 +100,7 @@ header #icono-menu{
 
 /*estilo para el listado de menu  */
 nav{
-    width: 50vw;
+    width: 35vw;
 }
 
 .contenido-menu ul{
@@ -114,7 +115,7 @@ nav{
     font-size: 1rem;
     text-decoration: none;
     padding: 10px 20px;
-    width: 50vw;
+    width: 35vw;
 }
 
 .contenido-menu ul li{
@@ -149,6 +150,35 @@ nav{
         align-self: center;
         padding-top:20vh;
     }
+
+    /* footer nav */
+    footer{
+        height:10vh;
+        background-color: blueviolet;
+    }
+    .footer_div_bloque{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+    }
+    footer nav{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+    }
+    .nav_caja{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        width: 20vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_caja a{
+        font-size:x-small;
+    }
+
 /* ------------------- */
 /* HOME */
 
