@@ -10,20 +10,20 @@ header{
 }
 
 .header_h1_bloque{
-    width: 50vw;
+    width: 60vw;
     height: 10vh;
-    background-color: red;
 }
 
 
 header h1{
-    font-size: medium;
-    
+    font-size: large;
+    color: rgba(255, 250, 100, 1);
+    padding-left: .3rem;
 }
 
 .header_botones_bloque{
     display: flex;
-    width: 55vw;
+    width: 40vw;
     justify-content: flex-end;
 }
 
@@ -34,12 +34,6 @@ header h1{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;  
-}
-#botonDeUsuario{
-    height: 45px;
-    width: 12vw;
-    position: relative;
-    z-index: 5;    
 }
 
 /* estilo para el icono del menu */
@@ -57,21 +51,19 @@ header h1{
 }
 
 #botonDeMenu{
-    height: 45px;
-    width: 12vw;
+    height: 9vh;
+    width: 14vw;
     position: relative;
     z-index: 10;
     color: aliceblue;
-    background-color: rgba(0,0,0,1);
-
-}
-i{
-    position: relative;
-    z-index: 100;
+    background-color: rgba(0,0,0,.9);
+    border-radius: 100%;
+    border-inline: 20px red;
 }
 
 header #icono-usuario{
-
+    position: relative;
+    z-index: 100;
 }
 
 /* estilo para el contenedor del menu */
@@ -107,15 +99,24 @@ header #icono-usuario{
     flex-direction: column;
     margin-top: 2rem;
 }
-
-.contenido-menu a{
-    color: rgb(256, 256, 256);
-    text-align: center;
-}
 .contenido-menu p{
     color: rgb(256, 256, 256);
     text-align: center;
 }
+#log-in-button{
+    margin-top: .4rem;
+    margin-bottom: .8rem;
+    width: 6rem;
+    align-self: center;
+}
+
+.contenido-menu a{
+    color: rgb(256, 256, 256);
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(50, 170,200);
+}
+
 
 /* estilo para agregar en javascript */
 .activo{
@@ -123,7 +124,7 @@ header #icono-usuario{
     width: 50vw; 
 }
 .opacity{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,.2);
     transition: all .5s ease;
  
 }
@@ -155,7 +156,7 @@ header #icono-usuario{
     /* footer nav */
     footer{
         height:10vh;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
     }
     .footer_div_bloque{
         height: 10vh;
