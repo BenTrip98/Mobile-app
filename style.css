@@ -10,7 +10,7 @@ header{
 }
 
 .header_h1_bloque{
-    width: 45vw;
+    width: 50vw;
     height: 10vh;
     background-color: red;
 }
@@ -70,7 +70,7 @@ i{
     z-index: 100;
 }
 
-header #icono-menu{
+header #icono-usuario{
 
 }
 
@@ -78,13 +78,17 @@ header #icono-menu{
 .contenido-menu {
     background-color: rgb(42, 42, 42);
     box-shadow: 2px 0px 5px 2 rgb(66, 66,66);
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
     position: absolute;
     z-index: 7;
     top: 0;
     left: end;
     transition: all .5s ease;
+}
+
+.foto-usuario-default{
+    width: 5rem;
 }
 
 /* estilo para agregar en javascript */
@@ -96,35 +100,6 @@ header #icono-menu{
     background-color: rgba(0,0,0,0.5);
     transition: all .5s ease;
  
-}
-
-/*estilo para el listado de menu  */
-nav{
-    width: 35vw;
-}
-
-.contenido-menu ul{
-    padding: 100px 0px 20px 0px;
-    list-style: none;
-    width: 50vw;
-}
-
-.contenido-menu ul li a{
-    color: white;
-    display: block;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 10px 20px;
-    width: 35vw;
-}
-
-.contenido-menu ul li{
-    width: 50vw;
-}
-
-.contenido-menu ul li a:hover{
-    background-color: rgb(0, 0, 0);
-
 }
 
 /* imagen de fondo del main */
