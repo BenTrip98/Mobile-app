@@ -262,13 +262,16 @@ table th,td{
 }
 
 #div_schedule_extra_info{
-    margin: 0 .5rem;
-    margin-bottom: .5rem;
+    margin: .7rem .5rem;
+    margin-bottom: .7rem;
     text-align: center;
 }
 #div_schedule_extra_info p{
     font-size: small;
+    margin-bottom: .5rem;
 }
 #div_schedule_extra_info address a{
     font-size: small;
 }
+
+/* RULES HTML */
