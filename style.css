@@ -275,3 +275,12 @@ table th,td{
 }
 
 /* RULES HTML */
+.rules_h2{
+    font-size: large;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#rules_div_containe h3{
+    font-size: small;
+}
