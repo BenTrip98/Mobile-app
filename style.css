@@ -275,6 +275,9 @@ table th,td{
 }
 
 /* RULES HTML */
+#rules_main{
+    margin: 0 .2rem;
+}
 .rules_h2{
     font-size: large;
     margin-top: .5rem;
@@ -287,15 +290,23 @@ table th,td{
     font-size: small;
     margin-bottom: .5rem;
 }
-
+#rules_div_container ul,ol{
+     margin:0 1rem; 
+}
 #rules_div_container li{
     font-size:small;
+    margin: .5rem 0; 
 }
+
 #rules_div_container .Sportmanship_rule-h3{
     font-size: medium;
     
 }
 #rules_div_container .fifa_rules-h3{
     margin-top: 1rem;
+    font-size: medium;
+}
+
+#rules_div_container .important-h3{
     font-size: medium;
 }
