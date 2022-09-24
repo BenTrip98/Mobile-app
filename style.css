@@ -280,7 +280,22 @@ table th,td{
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
-
-#rules_div_containe h3{
+#rules_div_container{
+    /* margin: 0 2rem; */
+}
+#rules_div_container h3{
     font-size: small;
+    margin-bottom: .5rem;
+}
+
+#rules_div_container li{
+    font-size:small;
+}
+#rules_div_container .Sportmanship_rule-h3{
+    font-size: medium;
+    
+}
+#rules_div_container .fifa_rules-h3{
+    margin-top: 1rem;
+    font-size: medium;
 }
