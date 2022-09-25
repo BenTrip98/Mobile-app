@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/57272b1893.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header_h1_bloque">
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
+       
+        <div class="header_botones_bloque">
+            <div class="div_icono-menu">
+                <button id="botonDeMenu"> 
+                    <i class="fas fa-user" id="icono-usuario"> </i> 
+                </button>   
+            </div>
+            <div class="contenido-menu activo" id="menu">
+                <img class="foto-usuario-default" src="./assets/perfil_de_usuario_default.png" alt="img-usuario-default">
+                <p id="nombreUsuario"> No ha iniciado sesión </p>
+                <div class="caja-sesion">
+                    <p>Username</p>
+                    <input type="text" name="nombre_usuario" id="InputNombreDeUsuario">
+                    <p>Pasword</p>
+                    <input type="text" name="nombre_usuario" id="InputPaswordDeUsuario">
+                    <button id="log-in-button">Log in</button>
+                    <p> You don´t have a user account?</p>
+                    <a>Register</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="about_main">
+        <h2> <em>About</em></h2>
+        <h3>Mission</h3>
+        <p class="indent">To support young athletes living in Chicago's northside neighborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifically those skills around team cooperation and good sportsmanship.</p>
+        
+        <h3>Vision</h3>
+        <p class="indent">The Mighty Ducks Hockey League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.</p>
+        
+        <h3>General Information</h3>
+        <p class="indent">The Mighty Ducks Hockey League was established in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in which to learn and play soccer. To be a member of MDHL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. MDHL is run by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
+
+    </main>
+    <footer>
+        <div class="footer_div_bloque">
+            <nav>
+                <a class="a_caja" href="./home.html">
+                    <i class="fas fa-home"></i>
+                    <p >Home</p>
+                </a>
+                <a class="a_caja" href="./game_info.html">
+                    <i class="fas fa-calendar-days"></i>
+                    <p  >Schedule</p>
+                </a>
+                <a class="a_caja" href="./register.html">
+                    <i class="fas fa-clipboard-list"></i>
+                    <p >Register</p>
+                </a>
+                <a class="a_caja" href="./rules.html">
+                    <i class="fas fa-list-check"></i>
+                    <p >Rules</p>
+                </a>
+                <a class="a_caja" href="#">
+                    <i class="fas fa-circle-info"> </i>
+                    <p>About</p>
+                </a>
+            </nav>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

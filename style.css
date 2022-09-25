@@ -319,6 +319,7 @@ table th,td{
     font-size: large;
     margin-top: .5rem;
     margin-bottom: .5rem;
+    text-align: center;
 }
 #rules_div_container{
     /* margin: 0 2rem; */
@@ -346,4 +347,24 @@ table th,td{
 
 #rules_div_container .important-h3{
     font-size: medium;
+}
+
+/* ABOUT.html */
+
+#about_main{
+    margin: .5rem .5rem;
+}
+
+#about_main h2{
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#about_main h3{
+    font-size: medium;
+}
+
+#about_main p {
+    font-size: small;
 }
