@@ -12,11 +12,12 @@ header{
     transition: 0.6s;
 }
 
-header.sticky{
+/* evento para sticky, no requerido */
+/* header.sticky{ */
     /* padding: 5px 100px ; */
-    background: black;
-    opacity: 1;
-}
+    /* background: black; */
+    /* opacity: 1; */
+/* }  */
 
 .header_h1_bloque{
     width: 60vw;
@@ -181,13 +182,13 @@ header #icono-usuario{
         z-index: 100;
         transition: 0.6;
         bottom: -1px;
-        background-color: rgba(0,0,0,.8)       
+        background-color: rgba(255,255,255,1)       
     }
 
-    footer.sticky{
+    /* footer.sticky{
         background: black;
         opacity: 1;
-    }
+    } */
     .footer_div_bloque{
         height: 10vh;
         width: 100vw;
@@ -198,16 +199,32 @@ header #icono-usuario{
         width: 100vw;
         display: flex;
     }
-    .nav_caja{
+    .a_caja{
         display: flex;
         flex-direction: column;
         height: 10vh;
         width: 20vw;
         justify-content: center;
         align-items: center;
+        z-index: 100;
+        
+    }
+    .a_caja:link{
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
+    }
+    .a_caja:visited{
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
+        
+    }
+    .a_caja i{
+    
     }
 
-    .nav_caja a{
+    .a_caja p{
         font-size:x-small;
         text-decoration: none;
     }

@@ -18,9 +18,22 @@ iconoUsuario.addEventListener('click',(e)=>{
 })
 
 //scroll evento header
-window.addEventListener("scroll",function(){
+/*window.addEventListener("scroll",function(){
     var header= this.document.querySelector("header");
     header.classList.toggle("sticky",window.scrollY>0)
+})*/
+
+//scroll evento header hide and show
+var lastScrollTop=0;
+var header= this.document.querySelector("header");
+window.addEventListener("scroll",function(){
+    var scrollTop=this.window.pageYOffset||this.document.documentElement.scrollTop;
+    if (scrollTop>lastScrollTop){
+        header.style.top="-100px" //buscar medida 
+    }else{
+        header.style.top="0"
+    }
+    lastScrollTop=scrollTop
 })
 
 //scroll evento footer
