@@ -37,7 +37,7 @@ window.addEventListener("scroll",function(){
 })
 
 //scroll evento footer
-window.addEventListener("click",function(){
+/*window.addEventListener("click",function(){
     var footer=this.document.querySelector("footer");
     footer.classList.toggle("sticky",this.window.scroll<0)
-})
+})*/

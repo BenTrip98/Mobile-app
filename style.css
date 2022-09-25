@@ -171,18 +171,15 @@ header #icono-usuario{
         padding-top:20vh;
     }
 
-    main h2{
-        font-size: x-large;
-    }
 
     /* footer nav */
     footer{
         height:10vh;
-        position: fixed;
+        position: sticky;
         z-index: 100;
         transition: 0.6;
         bottom: -1px;
-        background-color: rgba(255,255,255,1)       
+        background-color: rgba(255,255,255,1);
     }
 
     /* footer.sticky{
@@ -239,18 +236,18 @@ header #icono-usuario{
     margin: .5rem .5rem;
 }
 
-#home_main_section h2{
+#home_main_section h2,em{
     text-align: center;
     margin-bottom: .5rem;
-    font-size: large;
+    font-size: 21px;
 }
 
 #home_main_section p{
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 #Contact_body-block{
-     margin-top: 1rem;
+     margin-top: .5rem;
      margin-left: .5rem;
      margin-right: .5rem;
 }
@@ -262,7 +259,7 @@ header #icono-usuario{
 } */
 
 #Schedule_div_body_content h2,em{
-    font-size: 21px;
+    font-size: large;
     text-align: center;
     text-decoration: underline;
     margin-top: .5rem;
@@ -311,11 +308,24 @@ table th,td{
     font-size: small;
 }
 
+/* REGISTER HTML */
+#register_main{
+     margin: .5rem .5rem; 
+}
+#resgister_div_bodycontent{
+
+}
+.form_stylized{
+    font-size: small;
+}
+.form_stylized label{
+    display: block;
+}
 /* RULES HTML */
 #rules_main{
     margin: 0 .2rem;
 }
-.rules_h2{
+.rules_h2 {
     font-size: large;
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -355,8 +365,8 @@ table th,td{
     margin: .5rem .5rem;
 }
 
-#about_main h2{
-    font-size: large;
+#about_main h2,em{
+    font-size:large;
     text-align: center;
     text-decoration: underline;
 }
