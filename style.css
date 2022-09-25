@@ -315,10 +315,40 @@ table th,td{
 #resgister_div_bodycontent{
 
 }
+#resgister_div_bodycontent label{
+    display: block;
+    font-size: small;
+}
+#resgister_div_bodycontent #label_uniform{
+    display: inline;
+    font-size: small;
+}
+#resgister_div_bodycontent h3{
+    font-size: medium;
+    text-align: center;
+}
 .form_stylized{
     font-size: small;
 }
 .form_stylized label{
+    display: block;
+}
+#resgister_div_bodycontent fieldset{
+    font-size: small;
+}
+
+/* #resgister_div_bodycontent select{
+    font-size: small;
+} */
+#resgister_div_bodycontent select option{
+    font-size:small ;
+    color: red;
+}
+
+#resgister_div_bodycontent .contract{
+    font-size: small;
+}
+#resgister_div_bodycontent .contract p label{
     display: block;
 }
 /* RULES HTML */
