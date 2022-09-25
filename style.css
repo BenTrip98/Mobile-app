@@ -7,6 +7,15 @@ header{
     display: flex;
     height: 10vh;
     background-color: rgba(0,0,0,.3);
+    position:fixed;
+    /* padding: 0 100px;  */
+    transition: 0.6s;
+}
+
+header.sticky{
+    /* padding: 5px 100px ; */
+    background: black;
+    opacity: 1;
 }
 
 .header_h1_bloque{
@@ -139,7 +148,8 @@ header #icono-usuario{
     main{
         /* display: flex; */
         /* flex-direction: column; */
-        height: 100%;
+        padding-top: 10vh;
+        height: 80%;
         display: inline-block;
     }
     .main_fondo_bloque{
@@ -167,7 +177,16 @@ header #icono-usuario{
     /* footer nav */
     footer{
         height:10vh;
-        /* background-color: blueviolet; */
+        position: fixed;
+        z-index: 100;
+        transition: 0.6;
+        bottom: -1px;
+        background-color: rgba(0,0,0,.8)       
+    }
+
+    footer.sticky{
+        background: black;
+        opacity: 1;
     }
     .footer_div_bloque{
         height: 10vh;
@@ -190,6 +209,7 @@ header #icono-usuario{
 
     .nav_caja a{
         font-size:x-small;
+        text-decoration: none;
     }
 
 /* ------------------- */

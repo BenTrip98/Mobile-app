@@ -16,3 +16,15 @@ iconoUsuario.addEventListener('click',(e)=>{
     console.log(iconoBoleano)
     
 })
+
+//scroll evento header
+window.addEventListener("scroll",function(){
+    var header= this.document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY>0)
+})
+
+//scroll evento footer
+window.addEventListener("click",function(){
+    var footer=this.document.querySelector("footer");
+    footer.classList.toggle("sticky",this.window.scroll<0)
+})
