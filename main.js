@@ -31,12 +31,4 @@ window.addEventListener("scroll",function(){
     lastScrollTop=scrollTop
 })
 
-<<<<<<< HEAD
-//scroll evento footer
-/*window.addEventListener("click",function(){
-    var footer=this.document.querySelector("footer");
-    footer.classList.toggle("sticky",this.window.scroll<0)
-})*/
-=======
 //funcion que marque la caja al estar en su respectiva pagina
->>>>>>> ecb15da5b03bc5bde918ed6e077eec0a2fa57394
