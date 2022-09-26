@@ -2,6 +2,7 @@ let iconoBoleano=false;
 const iconoUsuario = document.querySelector("#icono-usuario"),
 menu=document.querySelector("#menu")
 
+//cambia el icono de menu de usuario al clikearlo y desliza el login
 iconoUsuario.addEventListener('click',(e)=>{
     //alternar estilos para el menu y body
     menu.classList.toggle("activo");
@@ -9,6 +10,7 @@ iconoUsuario.addEventListener('click',(e)=>{
     iconoBoleano=!iconoBoleano
     if(iconoBoleano===true){
         iconoUsuario.className="fas fa-x";
+        
     }else{
         iconoUsuario.className="fas fa-user";
     }
@@ -16,13 +18,6 @@ iconoUsuario.addEventListener('click',(e)=>{
     console.log(iconoBoleano)
     
 })
-
-//scroll evento header
-/*window.addEventListener("scroll",function(){
-    var header= this.document.querySelector("header");
-    header.classList.toggle("sticky",window.scrollY>0)
-})*/
-
 //scroll evento header hide and show
 var lastScrollTop=0;
 var header= this.document.querySelector("header");
@@ -36,8 +31,12 @@ window.addEventListener("scroll",function(){
     lastScrollTop=scrollTop
 })
 
+<<<<<<< HEAD
 //scroll evento footer
 /*window.addEventListener("click",function(){
     var footer=this.document.querySelector("footer");
     footer.classList.toggle("sticky",this.window.scroll<0)
 })*/
+=======
+//funcion que marque la caja al estar en su respectiva pagina
+>>>>>>> ecb15da5b03bc5bde918ed6e077eec0a2fa57394

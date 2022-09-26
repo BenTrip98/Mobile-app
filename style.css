@@ -6,9 +6,9 @@
 header{
     display: flex;
     height: 10vh;
-    background-color: rgba(0,0,0,.3);
+    background-color: hsl(165, 75%, 35%);
+    /* background-color: rgb(9, 181, 98); aceptable*/
     position:fixed;
-    /* padding: 0 100px;  */
     transition: 0.6s;
 }
 
@@ -44,15 +44,6 @@ header h1{
     justify-content: flex-end;
 }
 
-.div_menuDeUsuario{
-    height: 10vh;
-    width: 20vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;  
-}
-
 /* estilo para el icono del menu */
 .div_icono-menu{
     /* margin:40px 50px; */
@@ -73,8 +64,9 @@ header h1{
     position: relative;
     z-index: 20;
     color: aliceblue;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,1);
     border-radius: 100%;
+    border: solid 1px rgb(0,0,0);
 }
 
 header #icono-usuario{
@@ -85,13 +77,15 @@ header #icono-usuario{
 /* estilo para el contenedor del menu */
 header .header_botones_bloque .contenido-menu {
     background-color: rgb(42, 42, 42);
-    /* box-shadow: 2px 0px 5px 2 rgb(66, 66,66); */
-    width: 50vw;
+    box-shadow: 2px 0px 5px 2 rgb(66, 66,66); 
+    width: 100vw;
     height: 100vh;
     position: absolute;
     z-index: 18;
     top: 0;
-    left: end;
+    left: 0; 
+    display: none; 
+    /* Medida es la correcta para dispositivos 320px, queda acercarla */
     transition: all .5s ease;
     display: flex;
     flex-direction: column;
@@ -136,8 +130,10 @@ header .header_botones_bloque .contenido-menu {
 
 /* estilo para agregar en javascript */
 .activo{
-    transform: translate(600px);
+    transform: translate(100vw);
     width: 50vw; 
+    /* position: absolute; */
+    /* right: 100vw; */
 }
 .opacity{
     background-color: rgba(0,0,0,.2);
@@ -180,8 +176,8 @@ header .header_botones_bloque .contenido-menu {
         transition: 0.6;
         bottom: -1px;
         background-color: rgba(255,255,255,1);
+        margin-top: 1rem;
     }
-
     /* footer.sticky{
         background: black;
         opacity: 1;
@@ -203,9 +199,10 @@ header .header_botones_bloque .contenido-menu {
         width: 20vw;
         justify-content: center;
         align-items: center;
-        z-index: 10;
-        
+        z-index: 11; 
+        /* border-radius: 45%;   */
     }
+
     .a_caja:link{
         text-decoration: inherit;
         color: inherit;
@@ -217,10 +214,6 @@ header .header_botones_bloque .contenido-menu {
         cursor: auto;
         
     }
-    .a_caja i{
-    
-    }
-
     .a_caja p{
         font-size:x-small;
         text-decoration: none;
@@ -310,16 +303,12 @@ table th,td{
 
 /* REGISTER HTML */
 #register_main{
-     margin: 11.5vh .8rem .5rem .8rem; 
-     
+     margin: 11.5vh .8rem 11vh .8rem; 
 }
 #register_main h2 {
     font-size: large;
     text-align: center;
     margin-bottom: .7rem;
-}
-#resgister_div_bodycontent{
-
 }
 #resgister_div_bodycontent label{
     display: block;
@@ -350,6 +339,7 @@ margin-bottom: .5rem;
 #resgister_div_bodycontent fieldset{
     font-size: small;
     margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 /* #resgister_div_bodycontent select{
@@ -383,9 +373,7 @@ margin-bottom: .5rem;
     margin-bottom: .5rem;
     text-align: center;
 }
-#rules_div_container{
-    /* margin: 0 2rem; */
-}
+
 #rules_div_container h3{
     font-size: small;
     margin-bottom: .5rem;
