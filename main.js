@@ -2,6 +2,7 @@ let iconoBoleano=false;
 const iconoUsuario = document.querySelector("#icono-usuario"),
 menu=document.querySelector("#menu")
 
+//cambia el icono de menu de usuario al clikearlo y desliza el login
 iconoUsuario.addEventListener('click',(e)=>{
     //alternar estilos para el menu y body
     menu.classList.toggle("activo");
@@ -30,3 +31,4 @@ window.addEventListener("scroll",function(){
     lastScrollTop=scrollTop
 })
 
+//funcion que marque la caja al estar en su respectiva pagina

@@ -6,9 +6,9 @@
 header{
     display: flex;
     height: 10vh;
-    background-color: rgba(0,0,0,.3);
+    background-color: hsl(165, 75%, 35%);
+    /* background-color: rgb(9, 181, 98); aceptable*/
     position:fixed;
-    /* padding: 0 100px;  */
     transition: 0.6s;
 }
 
@@ -176,8 +176,8 @@ header .header_botones_bloque .contenido-menu {
         transition: 0.6;
         bottom: -1px;
         background-color: rgba(255,255,255,1);
+        margin-top: 1rem;
     }
-
     /* footer.sticky{
         background: black;
         opacity: 1;
@@ -199,9 +199,10 @@ header .header_botones_bloque .contenido-menu {
         width: 20vw;
         justify-content: center;
         align-items: center;
-        z-index: 10;
-        
+        z-index: 11; 
+        /* border-radius: 45%;   */
     }
+
     .a_caja:link{
         text-decoration: inherit;
         color: inherit;
@@ -302,8 +303,7 @@ table th,td{
 
 /* REGISTER HTML */
 #register_main{
-     margin: 11.5vh .8rem .5rem .8rem; 
-     
+     margin: 11.5vh .8rem 11vh .8rem; 
 }
 #register_main h2 {
     font-size: large;
@@ -339,6 +339,7 @@ margin-bottom: .5rem;
 #resgister_div_bodycontent fieldset{
     font-size: small;
     margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 /* #resgister_div_bodycontent select{
