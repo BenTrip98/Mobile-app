@@ -9,6 +9,7 @@ iconoUsuario.addEventListener('click',(e)=>{
     iconoBoleano=!iconoBoleano
     if(iconoBoleano===true){
         iconoUsuario.className="fas fa-x";
+        
     }else{
         iconoUsuario.className="fas fa-user";
     }
