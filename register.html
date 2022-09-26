@@ -129,10 +129,10 @@
                 <label for="w_goalkeeper">Goalkeeper</label>
                 <input type="checkbox" name="want_position" id="w_goalkeeper" value="w_goalkeeper"/>
               </fieldset>
-              
+              <div class="div_uniform-checkbox">
                 <label id="label_uniform" for="uniform" class="impinfo">Already Have a Uniform</label>
                 <input type="checkbox" name="uniform" id="uniform"/>
-              
+              </div>
               <fieldset>
                 <legend>Jersey Size:</legend>
                 <span class="uniformchoice">
@@ -181,14 +181,14 @@
                 <p>
                   By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
-                <p>
+                <p class="contract_signature_container">
                   <label for="signature">Parent/Guardian Signature:</label>
                   <input type="text" name="signature" id="signature"/>
                   <label for="sig_date">Date:</label>
                   <input type="text" name="sig_date" id="sig_date"/>
                 </p>
               </div>
-              <p><input type="submit"/></p>
+              <p><input id="submit-button"type="submit"/></p>
               
             </form>
         </div>

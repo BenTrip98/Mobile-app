@@ -71,7 +71,7 @@ header h1{
     height: 9vh;
     width: 14vw;
     position: relative;
-    z-index: 10;
+    z-index: 20;
     color: aliceblue;
     background-color: rgba(0,0,0,.9);
     border-radius: 100%;
@@ -83,13 +83,13 @@ header #icono-usuario{
 }
 
 /* estilo para el contenedor del menu */
-.contenido-menu {
+header .header_botones_bloque .contenido-menu {
     background-color: rgb(42, 42, 42);
-    box-shadow: 2px 0px 5px 2 rgb(66, 66,66);
+    /* box-shadow: 2px 0px 5px 2 rgb(66, 66,66); */
     width: 50vw;
     height: 100vh;
     position: absolute;
-    z-index: 7;
+    z-index: 18;
     top: 0;
     left: end;
     transition: all .5s ease;
@@ -149,8 +149,8 @@ header #icono-usuario{
     main{
         /* display: flex; */
         /* flex-direction: column; */
-        padding-top: 10vh;
-        height: 80%;
+        margin-top: 10vh;
+        height: 80vh;
         display: inline-block;
     }
     .main_fondo_bloque{
@@ -176,7 +176,7 @@ header #icono-usuario{
     footer{
         height:10vh;
         position: sticky;
-        z-index: 100;
+        z-index: 10;
         transition: 0.6;
         bottom: -1px;
         background-color: rgba(255,255,255,1);
@@ -203,7 +203,7 @@ header #icono-usuario{
         width: 20vw;
         justify-content: center;
         align-items: center;
-        z-index: 100;
+        z-index: 10;
         
     }
     .a_caja:link{
@@ -310,12 +310,13 @@ table th,td{
 
 /* REGISTER HTML */
 #register_main{
-     margin: .2rem .5rem .5rem .5rem; 
+     margin: 11.5vh .8rem .5rem .8rem; 
      
 }
 #register_main h2 {
     font-size: large;
     text-align: center;
+    margin-bottom: .7rem;
 }
 #resgister_div_bodycontent{
 
@@ -324,9 +325,13 @@ table th,td{
     display: block;
     font-size: small;
 }
+#resgister_div_bodycontent .div_uniform-checkbox{
+margin-bottom: .5rem;
+}
 #resgister_div_bodycontent #label_uniform{
     display: inline;
     font-size: small;
+    margin-bottom: 1rem;
 }
 #resgister_div_bodycontent h3{
     font-size: medium;
@@ -338,8 +343,13 @@ table th,td{
 .form_stylized label{
     display: block;
 }
+.form_stylized input{
+    margin-bottom: .5rem;
+}
+
 #resgister_div_bodycontent fieldset{
     font-size: small;
+    margin-bottom: .5rem;
 }
 
 /* #resgister_div_bodycontent select{
@@ -352,13 +362,20 @@ table th,td{
 
 #resgister_div_bodycontent .contract{
     font-size: small;
+    margin-top: .3rem;
 }
 #resgister_div_bodycontent .contract p label{
     display: block;
 }
+#resgister_div_bodycontent .contract_signature_container{
+    margin-top: .5rem;
+}
+#resgister_div_bodycontent #submit-button{
+    margin-top: .4rem;
+}
 /* RULES HTML */
 #rules_main{
-    margin: 0 .2rem;
+    margin: 10vh .5rem 1rem .5rem;
 }
 .rules_h2 {
     font-size: large;
@@ -397,7 +414,7 @@ table th,td{
 /* ABOUT.html */
 
 #about_main{
-    margin: .5rem .5rem;
+    margin: 11vh .5rem 1rem .5rem;
 }
 
 #about_main h2,em{
@@ -405,7 +422,9 @@ table th,td{
     text-align: center;
     text-decoration: underline;
 }
-
+#about_main section{
+    margin-bottom: 1rem;
+}
 #about_main h3{
     font-size: medium;
 }
