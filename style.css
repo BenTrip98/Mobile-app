@@ -287,7 +287,7 @@ table{
     text-align: center;
     border: 2px black solid;
     margin:0 1rem ; 
-    width: 90vw;
+    /* width: 90vw; */
 }
 
 caption {
