@@ -103,17 +103,29 @@ header .header_botones_bloque .contenido-menu {
     text-align: center;
     margin-top: .5rem;
 }
+.contenido-menu p{
+    color: rgb(256, 256, 256);
+    text-align: center;
+}
 
 .caja-sesion{
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    align-items: center;
 }
-.contenido-menu p{
-    color: rgb(256, 256, 256);
+
+.caja-sesion .user_input-box{
+    margin-bottom: .5rem;
+
+}
+
+.caja-sesion .register_ancor-box{
     text-align: center;
+    margin-top: 3rem;
 }
 #log-in-button{
+    justify-self: end;
     margin-top: .4rem;
     margin-bottom: .8rem;
     width: 6rem;
@@ -223,16 +235,16 @@ header .header_botones_bloque .contenido-menu {
 /* HOME */
 #home_main p{
         line-height: 2;
-        font-size: small;
+        font-size: medium;
 }
 #home_main_section{
     margin: .5rem .5rem;
 }
-
-#home_main_section h2,em{
+#home_main_section h2{
     text-align: center;
     margin-bottom: .5rem;
-    font-size: 21px;
+    font-size: x-large;
+    text-decoration: underline;
 }
 
 #home_main_section p{
@@ -251,7 +263,7 @@ header .header_botones_bloque .contenido-menu {
       margin: .5rem .5rem ; 
 } */
 
-#Schedule_div_body_content h2,em{
+#Schedule_div_body_content h2{
     font-size: large;
     text-align: center;
     text-decoration: underline;
@@ -275,6 +287,7 @@ table{
     text-align: center;
     border: 2px black solid;
     margin:0 1rem ; 
+    width: 90vw;
 }
 
 caption {
@@ -294,11 +307,11 @@ table th,td{
     text-align: center;
 }
 #div_schedule_extra_info p{
-    font-size: small;
+    font-size: medium;
     margin-bottom: .5rem;
 }
 #div_schedule_extra_info address a{
-    font-size: small;
+    font-size: medium;
 }
 
 /* REGISTER HTML */
@@ -372,6 +385,7 @@ margin-bottom: .5rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 #rules_div_container h3{
@@ -402,11 +416,11 @@ margin-bottom: .5rem;
 /* ABOUT.html */
 
 #about_main{
-    margin: 11vh .5rem 1rem .5rem;
+    margin: 11vh .5rem 0 .5rem;
 }
 
-#about_main h2,em{
-    font-size:large;
+#about_main h2{
+    font-size:x-large;
     text-align: center;
     text-decoration: underline;
 }

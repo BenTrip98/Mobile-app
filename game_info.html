@@ -24,20 +24,26 @@
                 <img class="foto-usuario-default" src="./assets/perfil_de_usuario_default.png" alt="img-usuario-default">
                 <p id="nombreUsuario"> No ha iniciado sesión </p>
                 <div class="caja-sesion">
-                    <p>Username</p>
-                    <input type="text" name="nombre_usuario" id="InputNombreDeUsuario">
-                    <p>Pasword</p>
-                    <input type="text" name="nombre_usuario" id="InputPaswordDeUsuario">
-                    <button id="log-in-button">Log in</button>
-                    <p> You don´t have a user account?</p>
-                    <a>Register</a>
+                  <div class="user_input-box">
+                      <p>Username</p>
+                      <input type="text" name="nombre_usuario" id="InputNombreDeUsuario">
+                  </div>
+                  <div class="user_input-box">
+                      <p>Pasword</p>
+                      <input type="text" name="nombre_usuario" id="InputPaswordDeUsuario">
+                  </div>
+                  <button id="log-in-button">Log in</button>
+                  <div class="register_ancor-box">
+                      <p> You don´t have a user account?</p>
+                      <a href="user_registration.html">Register</a>
+                  </div>
                 </div>
             </div>
         </div>
     </header>    
     <main class="main" id="game_info-main">
       <div id="Schedule_div_body_content">
-        <h2><em>Fall Schedule</em></h2>
+        <h2>Fall Schedule</h2>
         <p class="main_div_p_anuncio">*All games take place on Saturday</p>
         <div id="schedule_div_table_container">
           <table id="game-info_table">
@@ -50,7 +56,7 @@
             </tr>
             <tr>
               <td rowspan="2" >9/01</td>
-              <td>U1 and U4</td>
+              <td><a href="u1-vs-u4.html">U1 and U4</a></td>
               <td>AJ Katzenmaier</td>
               <td>9:30 a.m.</td>
             </tr>
